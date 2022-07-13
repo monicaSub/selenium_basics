@@ -26,6 +26,6 @@ Select prod=new Select(driver.findElement(By.id("products")) );
 prod.selectByVisibleText("Iphone");
 Select pet=new Select(driver.findElement(By.id("animals")) );
 pet.selectByVisibleText("Baby Cat");
-
+System.out.println("hello");
 }
 }
