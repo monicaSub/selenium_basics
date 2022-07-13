@@ -20,7 +20,7 @@ WebDriver driver;
 		driver.findElement(By.id("txtCaptcha")).sendKeys("123");
 		driver.findElement(By.partialLinkText("Create")).click();
 		
-		
+		System.out.println("monica");
 		
 
 	}
